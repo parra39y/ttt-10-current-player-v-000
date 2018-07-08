@@ -15,7 +15,6 @@ def current_player(board)
   counter = 0
 
   board.each do |index|
-  index = gets.chomp.to_i
   
   if index%2 == 0
     puts "X"
