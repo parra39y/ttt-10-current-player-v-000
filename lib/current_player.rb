@@ -18,5 +18,5 @@ def current_player(board)
   else
     puts "O"
 end
-return current_player(board)
+return board
 end
