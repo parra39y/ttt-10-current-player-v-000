@@ -13,6 +13,7 @@ end
 
 def current_player(turn_count)
   counter = 0
+  board.each do |counter|
   if counter % 2 == 0
     puts "X"
   elsif counter % 2 == 1
