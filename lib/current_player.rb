@@ -15,9 +15,9 @@ def current_player(board)
   counter = 0
 
   board.each do |index|
-  if index % 2 == 1
+  if index % 2 == 0
     puts "X"
-  elsif index % 2 == 0
+  elsif index % 2 == 1
     puts "O"
     counter += 1
   end
