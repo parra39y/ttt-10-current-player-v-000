@@ -21,5 +21,6 @@ def current_player(board)
     puts "O"
     counter += 1
   end
+end
 return counter
 end
