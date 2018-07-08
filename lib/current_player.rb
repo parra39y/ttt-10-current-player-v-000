@@ -22,8 +22,6 @@ def current_player(board)
   elsif board % 2 != 0
     puts "O"
 
-  
   end
 end
-return counter
 end
