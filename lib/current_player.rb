@@ -19,5 +19,5 @@ def current_player(board)
     return "O"
 
 end
-return counter
+return token
 end
