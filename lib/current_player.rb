@@ -11,14 +11,13 @@ end
 return counter
 end
 
-def current_player(turn_count(board))
-  counter = 0
+def current_player(board)
 
-  if turn_count%2 == 0
+  if board%2 == 0
     puts "X"
   else
     puts "O"
 
-      counter += 1
+  
   end
 end
