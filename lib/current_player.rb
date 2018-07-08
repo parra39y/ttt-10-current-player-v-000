@@ -17,8 +17,7 @@ def current_player(board)
   board.each do |index|
   if index % 2 == 0
     puts "X"
-
-  elsif
+  else
     puts "O"
 
     Counter += 1
