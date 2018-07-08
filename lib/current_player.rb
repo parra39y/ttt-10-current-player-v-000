@@ -17,10 +17,10 @@ def current_player(board)
   board.each do |board|
 
   if board % 2 == 0
-    puts "X"
+    puts "O"
 
   elsif board % 2 != 0
-    puts "O"
+    puts "X"
 
   end
 end
