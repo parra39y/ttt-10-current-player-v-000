@@ -14,14 +14,14 @@ end
 def current_player(board)
   counter = 0
 
-  board.each do |index|
-  if index % 2 == 0
+  board.each do |board|
+    break if board.even?
+  if board % 2 == 0
     puts "X"
   else
     puts "O"
 
-    Counter += 1
-
+    counter += 1
   end
 end
 return counter
