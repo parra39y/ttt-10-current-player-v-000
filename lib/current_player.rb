@@ -14,7 +14,7 @@ end
 def current_player(board)
   counter = 0
 
-  if index%2 == 0
+  if board%2 == 0
     puts "X"
   else
     puts "O"
