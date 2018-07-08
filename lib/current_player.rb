@@ -19,6 +19,7 @@ def current_player(board)
     puts "X"
   elsif board % 2 != 0
     puts "O"
+    
       counter += 1
 end
   end
