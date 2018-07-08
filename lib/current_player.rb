@@ -16,13 +16,12 @@ def current_player(board)
 
   board.each do |board|
   board= gets.chomp.to_i
-  if board%2 == 0
+  if board % 2 == 0
     puts "X"
   else
     puts "O"
 
       counter += 1
-end
   end
   return counter
 end
