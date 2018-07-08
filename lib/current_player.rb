@@ -12,6 +12,7 @@ return counter
 end
 
 def current_player (turn_count)
+  counter = 0
   if counter % 2 == 0
     puts "X"
   elsif counter % 2 == 1
