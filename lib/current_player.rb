@@ -15,9 +15,8 @@ def current_player(board)
 
   if turn_count%2 == 0
     return "X"
-  end
-else turn_count%2 != 0
+else 
     return "O"
   end
-
+end
 end
