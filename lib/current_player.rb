@@ -20,5 +20,3 @@ def current_player(board)
 
 end
 end
-return turn_count
-end
