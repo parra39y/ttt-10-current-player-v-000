@@ -14,8 +14,6 @@ end
 def current_player(board)
   counter = 0
 
-  board.each do |index|
-
   if index%2 == 0
     puts "X"
   else
