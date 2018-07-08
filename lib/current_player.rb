@@ -11,13 +11,13 @@ end
 return counter
 end
 
-def current_player(board)
+def current_player(board,index)
   counter = 0
 
-  board.each do |board|
-  if board % 2 == 0
+  board.each do |index|
+  if index % 2 == 0
     puts "X"
-  elsif board % 2 != 0
+  elsif index % 2 != 0
     puts "O"
       counter += 1
 end
