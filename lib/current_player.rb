@@ -16,7 +16,7 @@ def current_player (turn_count)
   if counter % 2 == 0
     puts "X"
   elsif counter % 2 == 1
-    puts "O"  
+    puts "O"
     counter += 1
   end
 end
