@@ -20,5 +20,5 @@ def current_player(board)
 
 end
 end
-return current_player
+return index
 end
