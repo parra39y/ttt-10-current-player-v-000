@@ -17,12 +17,11 @@ def current_player(board)
   board.each do |index|
   if index % 2 == 0
     puts "X"
-    counter += 1
   elsif index % 2 == 1
     puts "O"
-    counter += 1
-
   end
+  counter += 1
+
 end
 return counter
 end
