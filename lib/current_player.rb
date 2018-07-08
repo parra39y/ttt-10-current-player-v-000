@@ -20,5 +20,3 @@ def current_player (turn_count)
     counter +1
   end
 end
-    
-    
