@@ -18,7 +18,6 @@ def current_player(board)
 
   if board % 2 == 0
     puts "X"
-    break if board.even?
     
   else
     puts "O"
